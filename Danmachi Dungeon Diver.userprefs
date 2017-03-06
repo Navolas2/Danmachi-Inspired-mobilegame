@@ -1,0 +1,27 @@
+﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.AttachToProcess" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Room.cs">
+    <Files>
+      <File FileName="Assets\BattleManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Dungeon.cs" Line="9" Column="36" />
+      <File FileName="Assets\Goal_Maker.cs" Line="1" Column="1" />
+      <File FileName="Assets\Menu_Button.cs" Line="1" Column="1" />
+      <File FileName="Assets\Location_Grid.cs" Line="1" Column="1" />
+      <File FileName="Assets\Adventurer.cs" Line="1" Column="1" />
+      <File FileName="Assets\MonsterFactory.cs" Line="129" Column="1" />
+      <File FileName="Assets\coordinate.cs" Line="93" Column="23" />
+      <File FileName="Assets\DungeonUnit.cs" Line="1" Column="1" />
+      <File FileName="Assets\DungeonAdventurer.cs" Line="210" Column="4" />
+      <File FileName="Assets\Room.cs" Line="229" Column="17" />
+      <File FileName="Assets\MonsterInformation.xml" Line="1" Column="1" />
+      <File FileName="Assets\Dungeon_Floor.cs" Line="106" Column="27" />
+      <File FileName="Assets\Monster.cs" Line="290" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Alienware\Documents\Danmachi Dungeon Diver\Assets\Room.cs" line="131" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

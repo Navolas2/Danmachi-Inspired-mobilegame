@@ -1,0 +1,36 @@
+﻿<Heal_Item_Information>
+	<Item>
+		<name>Basic Potion</name>
+		<health_type>1</health_type> <!-- 0 is none, 1 is percentage, 2 is value -->
+		<health_amount>.4</health_amount>
+		<mana_type>0</mana_type> <!-- 0 is none, 1 is percentage, 2 is value -->
+		<mana_amount>0</mana_amount>
+		<price>200</price>
+	</Item>
+	<Item>
+		<name>Basic Potion+</name>
+		<health_type>1</health_type> <!-- 0 is none, 1 is percentage, 2 is value -->
+		<health_amount>.5</health_amount>
+		<mana_type>0</mana_type> <!-- 0 is none, 1 is percentage, 2 is value -->
+		<mana_amount>0</mana_amount>
+		<price>300</price>
+	</Item>
+	<Item>
+		<name>better Potion</name>
+		<health_type>1</health_type> <!-- 0 is none, 1 is percentage, 2 is value -->
+		<health_amount>.6</health_amount>
+		<mana_type>0</mana_type> <!-- 0 is none, 1 is percentage, 2 is value -->
+		<mana_amount>0</mana_amount>
+		<price>500</price>
+	</Item>
+	<Item>
+		<name>Potion</name>
+		<health_type>2</health_type> <!-- 0 is none, 1 is percentage, 2 is value -->
+		<health_amount>90</health_amount>
+		<mana_type>0</mana_type> <!-- 0 is none, 1 is percentage, 2 is value -->
+		<mana_amount>0</mana_amount>
+		<price>200</price>
+	</Item>
+
+</Heal_Item_Information>
+

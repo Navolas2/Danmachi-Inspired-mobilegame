@@ -1,0 +1,26 @@
+<MONSTER_INFORMATION>
+	<Monster>
+		<name>Goblin</name>
+		<health>50</health>
+		<minRange>1</minRange>
+		<maxRange>3</maxRange>
+		<strength>1</strength>
+		<defense>10</defense>
+		<dextarity>5</dextarity>
+		<agility>7</agility>
+		<magic>0</magic>
+		<wise>false</wise>
+		<breath>false</breath>
+		<group>true</group> <!-- references aggression against monsters of the same type. If true, monster will group with similar monsters -->
+		<aggressive>false</aggressive> <!-- references aggression against monsters of different types. if true monster will target other monsters -->
+		<!-- If a monster doesn't group it MUST be aggressive -->
+		<legs>2</legs>
+		<affinity>
+			<element>NONE</element>
+		</affinity>
+		<weakness>
+			<element>NONE</element>
+		</weakness>
+		<rank>1</rank>
+	</Monster>
+</MONSTER_INFORMATION>

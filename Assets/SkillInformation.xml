@@ -1,0 +1,72 @@
+<SKILL_INFORMATION>
+	<SKILL>
+		<name>Basic Skill</name>
+		<description>This is a skill for testing</description>
+		<proc>99</proc>
+		<value>1</value>
+		<type>
+			<type_one>PASSIVE</type_one>
+		</type>
+		<hasAction>true</hasAction>
+		<Action_info>
+			<message>chain attacks</message>
+			<hit>
+				<str>.25</str>
+				<def>0</def>
+				<dex>1</dex>
+				<agi>.5</agi>
+				<mag>0</mag>
+				<boost>13</boost>
+			</hit>
+			<damage>
+				<str>1</str>
+				<def>0</def>
+				<dex>.1</dex>
+				<agi>0</agi>
+				<mag>0</mag>
+				<boost>20</boost>
+			</damage>
+			<affinity>
+				<elem_one>NONE</elem_one>
+			</affinity>
+			<code>-1</code>
+			<single_target>true</single_target>
+			<delay>0</delay>
+			<cost>0</cost>
+			<volume>1</volume>
+			<has_status>false</has_status>
+		</Action_info>
+		<hasLink>false</hasLink>
+		<link>
+			<skill_one>Basic Skill</skill_one>
+		</link>
+		<hasBuff>true</hasBuff>
+		<Buff>
+			<stats>
+				<str>1</str>
+				<def>1</def>
+				<dex>1</dex>
+				<agi>1</agi>
+				<mag>1</mag>
+			</stats>
+			<health>10</health>
+			<type>1</type>
+			<length>4</length>
+			<element>
+			
+			</element>
+		</Buff>
+		<Requirements>
+			<stats>
+				<str>0</str>
+				<def>0</def>
+				<dex>0</dex>
+				<agi>0</agi>
+				<mag>0</mag>
+			</stats>
+			<skills>
+				<skill>none</skill>
+			</skills>
+		</Requirements>
+	</SKILL>
+</SKILL_INFORMATION>

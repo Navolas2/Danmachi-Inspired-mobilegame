@@ -1,0 +1,50 @@
+﻿<!---
+
+// P - pathway
+// R - room
+// W - wall
+// H - hole (Only on floors 13+)
+// F - pantry
+// S - pathway up a layer
+// s - pathway down a Layer
+// D - Doorway
+// M - mist cuts down sight to 1 when standing on or next to.
+// A - water. slows movement
+// L - lava. inflicts damage if in
+<Layer>Layer_1</Layer> every layer must begin with this
+-->
+<FloorPlan>
+	<Floor_Name>Test_Floor</Floor_Name>
+	<Minimum_Monsters>2</Minimum_Monsters>
+	<Spawn_Bursts>2</Spawn_Bursts>
+	<Enter_Location>
+		<x>2</x>
+		<y>0</y>
+		<z>2</z>
+	</Enter_Location>
+	<Exit_Location>
+		<x>8</x>
+		<y>0</y>
+		<z>2</z>
+	</Exit_Location>
+	<StairLocations>
+	</StairLocations>
+	<!--Floors must be a uniform size throughout every layer -->
+	<FloorLayout>
+		<Layer>Layer_1</Layer>
+		<row>WWWWWWWWWW</row>
+		<row>WRRRWRRRRW</row>
+		<row>WRURWRRRDW</row>
+		<row>WRRRPRRRRW</row>
+		<row>WWWWWWWWWW</row>
+	</FloorLayout>
+	<FloorHeat>
+		<Layer>Layer_1</Layer>
+		<row><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int></row>
+		<row><int>-1</int><int>10</int><int>09</int><int>08</int><int>-1</int><int>04</int><int>03</int><int>02</int><int>01</int><int>-1</int></row>
+		<row><int>-1</int><int>09</int><int>08</int><int>07</int><int>-1</int><int>03</int><int>02</int><int>01</int><int>00</int><int>-1</int></row>
+		<row><int>-1</int><int>08</int><int>07</int><int>06</int><int>05</int><int>04</int><int>03</int><int>02</int><int>01</int><int>-1</int></row>
+		<row><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int><int>-1</int></row>
+	</FloorHeat>
+</FloorPlan>
+

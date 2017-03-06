@@ -1,0 +1,15 @@
+<SPELL_INFORMATION>
+	<SPELL>
+		<name>Fireball</name>
+		<speed>3</speed>
+		<hit>70</hit>
+		<cost>15</cost>
+		<damage>80</damage>
+		<focus>4</focus>
+		<effect>NONE</effect>
+		<affinity>FIRE</affinity>
+		<type>OFFENSE</type>
+		<level>1</level>
+		<self>false</self>
+	</SPELL>
+</SPELL_INFORMATION>
